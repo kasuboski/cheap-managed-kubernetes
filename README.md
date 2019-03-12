@@ -24,4 +24,4 @@ You'll then need to fill out your own values in `terraform.tfvars.example` and `
 It takes awhile (like 8mins). It creates a cluster with the default node pool and then deletes it and replaces it with the node pool we specified.
 
 **Caveats**
-We disabled logging, monitoring and load balancing. All 3 can add quite a bit of $$$ with load balancing being like $20 a month.
+We disabled logging, monitoring and load balancing. All 3 can add quite a bit of $$$ with load balancing being ~$20 a month.
