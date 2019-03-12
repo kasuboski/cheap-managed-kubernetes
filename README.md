@@ -19,7 +19,7 @@ You'll then need to fill out your own values in `terraform.tfvars.example` and `
 1. `terraform init -backend-config=backend.hcl`
 2. `terraform plan` This should output what will be created. Should be a cluster and node pool.
 3. `terraform apply` This will create the resources
-4. 4. `terraform destroy` 
+4. `terraform destroy` Don't forget to delete the resources if you don't need them
 
 It takes awhile (like 8mins). It creates a cluster with the default node pool and then deletes it and replaces it with the node pool we specified.
 
