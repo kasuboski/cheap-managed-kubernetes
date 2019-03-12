@@ -1,0 +1,5 @@
+.terraform
+
+# Probably want to remove this when you're set up for your project
+backend.hcl
+terraform.tfvars
